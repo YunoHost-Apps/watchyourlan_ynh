@@ -11,10 +11,10 @@ influx_skip_tls: false
 influx_token: ""
 log_level: info
 nodepath: ""
-pg_connect: ""
+pg_connect: "postgres://__DB_USER__:__DB_PWD__@localhost:5432/__DB_NAME__?sslmode=disable"
 port: "__PORT__"
 shoutrrr_url: "gotify://192.168.0.1:8083/AwQqpAae.rrl5Ob/?title=Unknown host detected&DisableTLS=yes"
 theme: sand
 timeout: 60
 trim_hist: 48
-use_db: sqlite
+use_db: postgres
