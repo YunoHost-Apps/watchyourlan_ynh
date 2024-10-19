@@ -1,0 +1,20 @@
+arp_args: ""
+color: dark
+hist_in_db: false
+host: 127.0.0.1
+ifaces: enp4s0
+influx_addr: ""
+influx_bucket: ""
+influx_enable: false
+influx_org: ""
+influx_skip_tls: false
+influx_token: ""
+log_level: info
+nodepath: ""
+pg_connect: ""
+port: "__PORT__"
+shoutrrr_url: "gotify://192.168.0.1:8083/AwQqpAae.rrl5Ob/?title=Unknown host detected&DisableTLS=yes"
+theme: sand
+timeout: 60
+trim_hist: 48
+use_db: sqlite
