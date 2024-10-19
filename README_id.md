@@ -34,6 +34,7 @@ Lightweight network IP scanner with web GUI.
 
 ## Dokumentasi dan sumber daya
 
+- Dokumentasi admin resmi: <https://github.com/aceberg/WatchYourLAN/blob/main/docs/VLAN_ARP_SCAN.md>
 - Depot kode aplikasi hulu: <https://github.com/aceberg/WatchYourLAN>
 - Gudang YunoHost: <https://apps.yunohost.org/app/watchyourlan>
 - Laporkan bug: <https://github.com/YunoHost-Apps/watchyourlan_ynh/issues>
