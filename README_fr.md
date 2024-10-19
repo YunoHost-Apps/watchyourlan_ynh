@@ -33,6 +33,7 @@ Scanner IP réseau léger avec interface graphique Web.
 
 ## Documentations et ressources
 
+- Documentation officielle de l’admin : <https://github.com/aceberg/WatchYourLAN/blob/main/docs/VLAN_ARP_SCAN.md>
 - Dépôt de code officiel de l’app : <https://github.com/aceberg/WatchYourLAN>
 - YunoHost Store : <https://apps.yunohost.org/app/watchyourlan>
 - Signaler un bug : <https://github.com/YunoHost-Apps/watchyourlan_ynh/issues>
