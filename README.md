@@ -18,7 +18,6 @@ It shall NOT be edited by hand.
 
 Lightweight network IP scanner with web GUI.
 
-
 ### Features
 
 - end notification when new host is found
