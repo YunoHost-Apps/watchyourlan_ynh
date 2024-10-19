@@ -19,10 +19,10 @@ ynh_script_progression "Adding $app's configuration files..."
 
 network_interfaces=$(ip -o link show | awk -F': ' '$2 != "lo" {print $2}' | xargs)
 
-ynh_config_add --template="config_v2.yaml" --destination="$install_dir/config_v2.yaml"
+ynh_config_add --template="config_v2.yaml" --destination="$data_dir/config_v2.yaml"
 
-chmod 600 "$install_dir/config_v2.yaml"
-chown "$app:$app" "$install_dir/config_v2.yaml"
+chmod 600 "$data_dir/config_v2.yaml"
+chown "$app:$app" "$data_dir/config_v2.yaml"
 chown root:root $data_dir
 
 #=================================================
