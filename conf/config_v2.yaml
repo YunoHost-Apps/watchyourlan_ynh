@@ -2,7 +2,7 @@ arp_args: ""
 color: dark
 hist_in_db: false
 host: 127.0.0.1
-ifaces: enp4s0
+ifaces: __NETWORK_INTERFACES__
 influx_addr: ""
 influx_bucket: ""
 influx_enable: false
