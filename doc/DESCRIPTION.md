@@ -1,4 +1,4 @@
-Lightweight network IP scanner with web GUI. Features:
+Lightweight network IP scanner with web GUI.
 
 
 ### Features
