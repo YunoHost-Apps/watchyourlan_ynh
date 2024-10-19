@@ -34,6 +34,7 @@ Lightweight network IP scanner with web GUI.
 
 ## 文档与资源
 
+- 官方管理文档： <https://github.com/aceberg/WatchYourLAN/blob/main/docs/VLAN_ARP_SCAN.md>
 - 上游应用代码库： <https://github.com/aceberg/WatchYourLAN>
 - YunoHost 商店： <https://apps.yunohost.org/app/watchyourlan>
 - 报告 bug： <https://github.com/YunoHost-Apps/watchyourlan_ynh/issues>

@@ -34,6 +34,7 @@ Lightweight network IP scanner with web GUI.
 
 ## Documentaciones y recursos
 
+- Documentación administrador oficial: <https://github.com/aceberg/WatchYourLAN/blob/main/docs/VLAN_ARP_SCAN.md>
 - Repositorio del código fuente oficial de la aplicación : <https://github.com/aceberg/WatchYourLAN>
 - Catálogo YunoHost: <https://apps.yunohost.org/app/watchyourlan>
 - Reportar un error: <https://github.com/YunoHost-Apps/watchyourlan_ynh/issues>
