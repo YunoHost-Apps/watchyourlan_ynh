@@ -13,6 +13,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "MIT"
+admindoc = "https://github.com/aceberg/WatchYourLAN/blob/main/docs/VLAN_ARP_SCAN.md"
 code = "https://github.com/aceberg/WatchYourLAN"
 fund = "https://boosty.to/aceberg/donate"
 
