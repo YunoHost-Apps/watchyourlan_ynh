@@ -9,7 +9,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/watchyourlan -d __INSTALL_DIR__
+ExecStart=__INSTALL_DIR__/watchyourlan -d __DATA_DIR__
 Restart=on-failure
 
 ### Depending on specificities of your service/app, you may need to tweak these
