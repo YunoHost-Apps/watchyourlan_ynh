@@ -1,4 +1,4 @@
-Scanner IP réseau léger avec interface graphique Web. Fonctionnalités :
+Scanner IP réseau léger avec interface graphique Web.
 
 ### Fonctionnalités
 

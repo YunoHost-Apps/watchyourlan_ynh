@@ -16,7 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Scanner IP réseau léger avec interface graphique Web. Fonctionnalités :
+Scanner IP réseau léger avec interface graphique Web.
 
 ### Fonctionnalités
 

@@ -16,8 +16,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 ## Ringkasan
 
-Lightweight network IP scanner with web GUI. Features:
-
+Lightweight network IP scanner with web GUI.
 
 ### Features
 
