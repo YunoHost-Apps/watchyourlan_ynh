@@ -41,7 +41,7 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    in_subdir = false
+    #in_subdir = false
     url = "https://github.com/aceberg/WatchYourLAN/releases/download/2.0.3/watchyourlan_2.0.3_linux_amd64.tar.gz"
     sha256 = "6f2ab6af59e8146e09aa47058e04868604a93b66f46f27669a7ffb571b5d4dad"
 
