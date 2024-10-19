@@ -14,6 +14,7 @@ maintainers = ["eric_G"]
 [upstream]
 license = "MIT"
 code = "https://github.com/aceberg/WatchYourLAN"
+fund = "https://boosty.to/aceberg/donate"
 
 [integration]
 yunohost = ">= 11.2.30"
