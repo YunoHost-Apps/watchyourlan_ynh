@@ -16,7 +16,7 @@ Hij mag NIET handmatig aangepast worden.
 
 ## Overzicht
 
-Lightweight network IP scanner with web GUI. Features:
+Lightweight network IP scanner with web GUI.
 
 
 ### Features
