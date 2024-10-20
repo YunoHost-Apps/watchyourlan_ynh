@@ -6,8 +6,8 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-User=__APP__
-Group=__APP__
+#User=__APP__
+#Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 ExecStart=__INSTALL_DIR__/watchyourlan -d __DATA_DIR__
 Restart=on-failure
