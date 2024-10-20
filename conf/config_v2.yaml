@@ -13,7 +13,7 @@ log_level: info
 nodepath: ""
 pg_connect: ""
 port: "__PORT__"
-shoutrrr_url: "gotify://192.168.0.1:8083/AwQqpAae.rrl5Ob/?title=Unknown host detected&DisableTLS=yes"
+shoutrrr_url: ""
 theme: sand
 timeout: 60
 trim_hist: 48
