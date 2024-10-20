@@ -23,7 +23,7 @@ ynh_config_add --template="config_v2.yaml" --destination="$data_dir/config_v2.ya
 
 chmod 600 "$data_dir/config_v2.yaml"
 chown "$app:$app" "$data_dir/config_v2.yaml"
-chown root:root $data_dir
+chown -R "$app:$app" $data_dir
 
 #=================================================
 # SYSTEM CONFIGURATION
