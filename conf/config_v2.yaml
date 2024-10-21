@@ -2,7 +2,7 @@ arp_args: ""
 color: dark
 hist_in_db: false
 host: 127.0.0.1
-ifaces: enp4s0
+ifaces: __NETWORK_INTERFACES__
 influx_addr: ""
 influx_bucket: ""
 influx_enable: false
@@ -13,7 +13,7 @@ log_level: info
 nodepath: ""
 pg_connect: "postgres://__DB_USER__:__DB_PWD__@localhost:5432/__DB_NAME__?sslmode=disable"
 port: "__PORT__"
-shoutrrr_url: "gotify://192.168.0.1:8083/AwQqpAae.rrl5Ob/?title=Unknown host detected&DisableTLS=yes"
+shoutrrr_url: ""
 theme: sand
 timeout: 60
 trim_hist: 48

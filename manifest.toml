@@ -55,13 +55,15 @@ ram.runtime = "50M"
 
     [resources.install_dir]
 
+    [resources.data_dir]
+
     [resources.permissions]
     main.url = "/"
 
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql"
+    packages = "postgresql, arp-scan"
 
     [resources.database]
     type = "postgresql"
