@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # WatchYourLAN untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/watchyourlan.svg)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/watchyourlan.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/watchyourlan.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/watchyourlan)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/)
+![Status kerja](https://apps.yunohost.org/badge/state/watchyourlan)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/watchyourlan)
 
 [![Pasang WatchYourLAN dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=watchyourlan)
 

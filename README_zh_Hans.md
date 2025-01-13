@@ -5,7 +5,9 @@
 
 # YunoHost 上的 WatchYourLAN
 
-[![集成程度](https://dash.yunohost.org/integration/watchyourlan.svg)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/watchyourlan.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/watchyourlan.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/watchyourlan)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/)
+![工作状态](https://apps.yunohost.org/badge/state/watchyourlan)
+![维护状态](https://apps.yunohost.org/badge/maintained/watchyourlan)
 
 [![使用 YunoHost 安装 WatchYourLAN](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=watchyourlan)
 
