@@ -20,7 +20,7 @@ fund = "https://boosty.to/aceberg/donate"
 [integration]
 yunohost = ">= 11.2.30"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "armhf", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -48,8 +48,11 @@ ram.runtime = "50M"
     arm64.sha256 = "859d777df8d699f0705e310ab76e8308dcf3980ac4350e614eacc70ed9a3921f"
     armhf.url = "https://github.com/aceberg/WatchYourLAN/releases/download/2.0.3/watchyourlan_2.0.3_linux_armv7.tar.gz"
     armhf.sha256 = "a96c86a5800cc8782a9ef9eb2c713ee205268d35ecc35ec88b69ae10ebc0de91"
-    
-    #autoupdate.strategy = "latest_github_tag"
+
+    autoupdate.strategy = "latest_github_release"
+    autoupdate.asset.amd64 = "watchyourlan_.*_linux_amd64.tar.gz"
+    autoupdate.asset.armhf = "watchyourlan_.*_linux_armv7.tar.gz"
+    autoupdate.asset.arm64 = "watchyourlan_.*_linux_arm64.tar.gz"
 
     [resources.system_user]
 
