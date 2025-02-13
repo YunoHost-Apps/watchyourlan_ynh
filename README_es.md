@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # WatchYourLAN para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/watchyourlan.svg)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/watchyourlan.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/watchyourlan.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/watchyourlan)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/)
+![Estado funcional](https://apps.yunohost.org/badge/state/watchyourlan)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/watchyourlan)
 
 [![Instalar WatchYourLAN con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=watchyourlan)
 

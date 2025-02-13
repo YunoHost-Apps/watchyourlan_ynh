@@ -5,7 +5,9 @@
 
 # WatchYourLAN для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/watchyourlan.svg)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/watchyourlan.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/watchyourlan.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/watchyourlan)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/)
+![Состояние работы](https://apps.yunohost.org/badge/state/watchyourlan)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/watchyourlan)
 
 [![Установите WatchYourLAN с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=watchyourlan)
 

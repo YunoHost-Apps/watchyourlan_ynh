@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # WatchYourLAN YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/watchyourlan.svg)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/watchyourlan.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/watchyourlan.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/watchyourlan)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/watchyourlan)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/watchyourlan)
 
 [![Instalatu WatchYourLAN YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=watchyourlan)
 
