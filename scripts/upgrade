@@ -51,7 +51,7 @@ yunohost service add "$app" --description="Lightweight network IP scanner" --log
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."
 
-ynh_systemctl --service="$app" --action="start"
+ynh_systemctl --service="$app" --action="start" --log_path="systemd" --wait_until="Web GUI at"
 
 #=================================================
 # END OF SCRIPT
