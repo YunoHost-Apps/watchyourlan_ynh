@@ -9,7 +9,7 @@ description.fr = "Scanner IP réseau léger avec interface graphique Web"
 
 version = "2.0.3~ynh1"
 
-maintainers = ["eric_G"]
+maintainers = []
 
 [upstream]
 license = "MIT"
