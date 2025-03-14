@@ -66,4 +66,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "sqlite3, arp-scan"
+    packages = "postgresql, arp-scan"
+
+    [resources.database]
+    type = "postgresql"
