@@ -27,6 +27,7 @@ Scanner IP réseau léger avec interface graphique Web.
 - Conserver une liste de tous les hôtes du réseau
 - Envoyer des données à InfluxDB2 pour créer un tableau de bord Grafana
 
+
 **Version incluse :** 2.0.4~ynh1
 
 ## Captures d’écran
