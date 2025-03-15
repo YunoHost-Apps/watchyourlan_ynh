@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#=================================================
+# IMPORT GENERIC HELPERS
+#=================================================
+
 source _common.sh
 source /usr/share/yunohost/helpers
 
@@ -15,6 +19,7 @@ ynh_systemctl --service="$app" --action="stop"
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
+# Download, check integrity, uncompress and patch the source from manifest.toml
 ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="config_v2.yaml"
 
 chmod +x "$install_dir/watchyourlan"
@@ -26,10 +31,11 @@ ynh_script_progression "Updating $app's configuration files..."
 
 network_interfaces=$(ip -o link show | awk -F': ' '$2 != "lo" {print $2}' | xargs)
 
-ynh_config_add --template="config_v2.yaml" --destination="$install_dir/config_v2.yaml"
+ynh_config_add --template="config_v2.yaml" --destination="$data_dir/config_v2.yaml"
 
-chmod 600 "$install_dir/config_v2.yaml"
-chown "$app:$app" "$install_dir/config_v2.yaml"
+chmod 600 "$data_dir/config_v2.yaml"
+chown "$app:$app" "$data_dir/config_v2.yaml"
+chown -R "$app:$app" $data_dir
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
@@ -39,7 +45,6 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 ynh_config_add_nginx
 
 ynh_config_add_systemd
-
 yunohost service add "$app" --description="Lightweight network IP scanner" --log="/var/log/$app/$app.log"
 
 #=================================================
