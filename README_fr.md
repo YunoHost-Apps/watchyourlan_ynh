@@ -28,7 +28,7 @@ Scanner IP réseau léger avec interface graphique Web.
 - Envoyer des données à InfluxDB2 pour créer un tableau de bord Grafana
 
 
-**Version incluse :** 2.0.3~ynh1
+**Version incluse :** 2.0.4~ynh1
 
 ## Captures d’écran
 
