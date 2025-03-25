@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# WatchYourLAN para Yunohost
+# WatchYourLAN para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/watchyourlan)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/watchyourlan)
@@ -28,7 +28,7 @@ Lightweight network IP scanner with web GUI.
 - Send data to InfluxDB2 to make a Grafana dashboard
 
 
-**Versión actual:** 2.0.4~ynh1
+**Versión actual:** 2.1.1~ynh1
 
 ## Capturas
 

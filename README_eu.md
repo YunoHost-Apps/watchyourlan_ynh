@@ -28,7 +28,7 @@ Lightweight network IP scanner with web GUI.
 - Send data to InfluxDB2 to make a Grafana dashboard
 
 
-**Paketatutako bertsioa:** 2.0.4~ynh1
+**Paketatutako bertsioa:** 2.1.1~ynh1
 
 ## Pantaila-argazkiak
 
@@ -45,7 +45,7 @@ Lightweight network IP scanner with web GUI.
 
 Bidali `pull request`a [`testing` abarrera](https://github.com/YunoHost-Apps/watchyourlan_ynh/tree/testing).
 
-`testing` abarra probatzeko, ondorengoa egin:
+`testing` abarra probatzeko, honakoa egin:
 
 ```bash
 sudo yunohost app install https://github.com/YunoHost-Apps/watchyourlan_ynh/tree/testing --debug
