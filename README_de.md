@@ -28,7 +28,7 @@ Lightweight network IP scanner with web GUI.
 - Send data to InfluxDB2 to make a Grafana dashboard
 
 
-**Ausgelieferte Version:** 2.1.1~ynh1
+**Ausgelieferte Version:** 2.1.2~ynh1
 
 ## Bildschirmfotos
 
