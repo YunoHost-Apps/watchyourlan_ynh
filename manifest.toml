@@ -7,7 +7,7 @@ name = "WatchYourLAN"
 description.en = "Lightweight network IP scanner with web GUI"
 description.fr = "Scanner IP réseau léger avec interface graphique Web"
 
-version = "2.1.2~ynh1"
+version = "2.1.2~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -18,7 +18,7 @@ code = "https://github.com/aceberg/WatchYourLAN"
 fund = "https://boosty.to/aceberg/donate"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = ["amd64", "armhf", "arm64"]
 multi_instance = true
