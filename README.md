@@ -10,12 +10,16 @@ It shall NOT be edited by hand.
 
 Lightweight network IP scanner with web GUI
 
-[![Version: 2.1.2~ynh2](https://img.shields.io/badge/Version-2.1.2~ynh2-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/)
+[![Version: 2.1.3~ynh1](https://img.shields.io/badge/Version-2.1.3~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/watchyourlan/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/watchyourlan"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
 <a href="https://github.com/YunoHost-Apps/watchyourlan_ynh/issues"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_report_an_issue.svg"/></a>
 </div>
+
+
+## Screenshots
+![Screenshot of WatchYourLAN](./doc/screenshots/Screenshot.png)
 
 ## 📦 Developer info
 
