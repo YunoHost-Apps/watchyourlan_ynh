@@ -34,8 +34,8 @@ network_interfaces=$(ip -o link show | awk -F': ' '$2 != "lo" {print $2}' | xarg
 ynh_config_add --template="config_v2.yaml" --destination="$data_dir/config_v2.yaml"
 
 chmod 600 "$data_dir/config_v2.yaml"
-chown "$app:$app" "$data_dir/config_v2.yaml"
-chown -R "$app:$app" $data_dir
+#chown "$app:$app" "$data_dir/config_v2.yaml"
+#chown -R "$app:$app" $data_dir
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
@@ -45,6 +45,7 @@ ynh_script_progression "Upgrading system configurations related to $app..."
 ynh_config_add_nginx
 
 ynh_config_add_systemd
+
 yunohost service add "$app" --description="Lightweight network IP scanner" --log="/var/log/$app/$app.log"
 
 #=================================================
