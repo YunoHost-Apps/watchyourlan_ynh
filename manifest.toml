@@ -7,7 +7,7 @@ name = "WatchYourLAN"
 description.en = "Lightweight network IP scanner with web GUI"
 description.fr = "Scanner IP réseau léger avec interface graphique Web"
 
-version = "2.1.3~ynh1"
+version = "2.1.4~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -43,12 +43,12 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    amd64.url = "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.3/watchyourlan_2.1.3_linux_amd64.tar.gz"
-    amd64.sha256 = "0516b8a65d39232e7bad7d58e5c73bd91fc51d72568447a5eac8659350e9f453"
-    arm64.url = "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.3/watchyourlan_2.1.3_linux_arm64.tar.gz"
-    arm64.sha256 = "74beacd0ffad4f5964d9c9a44a558fc31f78a64a594553ba1c233b0338d03f07"
-    armhf.url = "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.3/watchyourlan_2.1.3_linux_armv7.tar.gz"
-    armhf.sha256 = "23e6352c95e09fb08ef6b8e1d71ca2b12922c63f7f098b78e0b3de3c7163c448"
+    amd64.url = "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.4/watchyourlan_2.1.4_linux_amd64.tar.gz"
+    amd64.sha256 = "20f746f800f737ab05419fea7bd8b0dccbb0ba54696890aa9b415f42de68f459"
+    arm64.url = "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.4/watchyourlan_2.1.4_linux_arm64.tar.gz"
+    arm64.sha256 = "5bd7609d3f4c4401e68c20051369a007c103abeed921e57b93563048ac0d6ad4"
+    armhf.url = "https://github.com/aceberg/WatchYourLAN/releases/download/2.1.4/watchyourlan_2.1.4_linux_armv7.tar.gz"
+    armhf.sha256 = "351b92c6d8efb12219da7f83f04421a15e8d0f11b3ed39927d6707414bd6c214"
 
     autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = "watchyourlan_.*_linux_amd64.tar.gz"
