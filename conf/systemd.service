@@ -14,7 +14,7 @@ Restart=on-failure
 
 # Sandboxing options to harden security
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
-NoNewPrivileges=yes
+NoNewPrivileges=no
 PrivateTmp=yes
 PrivateDevices=yes
 #RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6 AF_NETLINK
@@ -24,7 +24,7 @@ DevicePolicy=closed
 ProtectClock=yes
 ProtectHostname=yes
 ProtectProc=invisible
-ProtectSystem=full
+ProtectSystem=true
 ProtectControlGroups=yes
 ProtectKernelModules=yes
 ProtectKernelTunables=yes
@@ -43,6 +43,8 @@ CapabilityBoundingSet=~CAP_SYS_TTY_CONFIG
 CapabilityBoundingSet=~CAP_MAC_ADMIN CAP_MAC_OVERRIDE
 #CapabilityBoundingSet=~CAP_NET_ADMIN CAP_NET_BROADCAST CAP_NET_RAW
 CapabilityBoundingSet=~CAP_SYS_ADMIN CAP_SYS_PTRACE CAP_SYSLOG
+CapabilityBoundingSet=CAP_NET_RAW CAP_NET_ADMIN
+AmbientCapabilities=CAP_NET_RAW CAP_NET_ADMIN
 
 [Install]
 WantedBy=multi-user.target
