@@ -26,8 +26,6 @@ network_interfaces=$(ip -o link show | awk -F': ' '$2 != "lo" {print $2}' | xarg
 ynh_config_add --template="config_v2.yaml" --destination="$data_dir/config_v2.yaml"
 
 chmod 600 "$data_dir/config_v2.yaml"
-#chown "$app:$app" "$data_dir/config_v2.yaml"
-#chown -R "$app:$app" $data_dir
 
 #=================================================
 # SYSTEM CONFIGURATION
